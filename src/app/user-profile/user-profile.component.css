@@ -1,0 +1,21 @@
+
+.img-circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
+
+.space{
+    flex: 1 1 auto;
+}
+
+.example-card{
+    max-width: 400px;
+    position: relative;
+    left: 30%;
+}
+
+.containers{
+    display: grid;
+    text-align: center;
+}

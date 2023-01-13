@@ -1,0 +1,30 @@
+.example-form h1{
+    font-family: "georgia" !important;
+    font-weight:700; 
+}
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+    position: relative;
+    top:28%;
+    left:32%;
+    box-shadow: 2px 4px 31px -3px rgba(141,150,242,0.75);
+    -webkit-box-shadow: 2px 4px 31px -3px rgba(141,150,242,0.75);
+    -moz-box-shadow: 2px 4px 31px -3px rgba(141,150,242,0.75);
+    border-radius: 5px;
+    padding:30px;
+  }
+  .example-full-width {
+    width: 100%;
+  }
+  .btn-submit {
+    background: #3f51b5;
+    border: none;
+    display: block;
+    padding:8px;
+    color: white;
+    text-decoration:none;
+    text-align:center;
+
+  }

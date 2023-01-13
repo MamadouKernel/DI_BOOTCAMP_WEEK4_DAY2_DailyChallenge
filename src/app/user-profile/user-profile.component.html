@@ -1,0 +1,15 @@
+<div class="containers">
+    <mat-card class="example-card">
+        <mat-card-header>
+          <div mat-card-avatar class="example-header-image" [ngStyle]="{'background': 'url('+user.profilePictureUrl+')','background-size':'cover'}" ></div>
+          <mat-card-title>{{getFullName()}}</mat-card-title>
+          <mat-card-subtitle>{{user.email}}</mat-card-subtitle>
+        </mat-card-header>
+        <img mat-card-image src="{{ user.profilePictureUrl }}" alt="">
+        <mat-card-content>
+          <p>
+           Lorem ipsum dolor sit, o cum nesciunt saepe, dolores impedit facere similique voluptatibus corrupti consectetur hic minus eos molestias culpa. Repellat cum in voluptatem!
+          </p>
+        </mat-card-content>
+    </mat-card>
+</div>

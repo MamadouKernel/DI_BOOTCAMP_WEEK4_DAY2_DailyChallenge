@@ -1,0 +1,14 @@
+.space{
+    flex: 1 1 auto;
+}
+a {
+    color: white;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.img-circle{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+}
